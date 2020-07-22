@@ -1,4 +1,6 @@
-const { chartreuse } = require("color-name");
+const {
+  chartreuse
+} = require("color-name");
 
 // Progression #1: Greatest of the two numbers
 function greatestOfTwoNumbers(num1, num2) {
@@ -14,12 +16,12 @@ const words = [
   "orchard",
   "crackpot",
 ];
+
 function findScaryWord(names) {
   if (names.length == 0) return null;
   else if (names.length == 1) {
     return names[0];
-  } else {
-  }
+  } else {}
   n = names.length;
   for (i = 0; i < n - 1; i++) {
     for (j = i + 1; j < n; j++) {
@@ -36,6 +38,7 @@ function findScaryWord(names) {
 
 // Progression #3: Net Price
 const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
+
 function netPrice(numbers) {
   sum = 0;
   if (numbers.length == 0) return 0;
@@ -48,6 +51,7 @@ function netPrice(numbers) {
 // Progression #4: Calculate the average
 // Progression 4.1: Array of numbers
 const numbersAvg = [2, 6, 9, 10, 7, 4, 1, 9];
+
 function midPointOfLevels(numbersAvg) {
   sum = 0;
   if (numbersAvg.length == 0) return null;
@@ -70,6 +74,7 @@ const wordsArr = [
   "fuel",
   "palace",
 ];
+
 function averageWordLength(wordsArr) {
   sum = 0;
   if (wordsArr.length == 0) return null;
@@ -80,6 +85,7 @@ function averageWordLength(wordsArr) {
     return sum / wordsArr.length;
   }
 }
+
 function add(mixedArr) {
   sum = 0;
   let flag = 0;
@@ -105,6 +111,7 @@ function add(mixedArr) {
     return sum;
   }
 }
+
 function avg(mixedArr) {
   sum = 0;
   let avgs = 0;
@@ -149,6 +156,7 @@ const wordsUnique = [
   "egg",
   "flour",
 ];
+
 function uniqueArray(wordsUnique) {
   var uniq = [];
   k = 0;
@@ -183,6 +191,7 @@ const wordsFind = [
   "truth",
   "disobedience",
 ];
+
 function searchElement(wordsFind, findWord) {
   let flag = 0;
   if (wordsFind.length == 0) return null;
@@ -212,6 +221,7 @@ const wordsCount = [
   "disobedience",
   "matter",
 ];
+
 function howManyTimesElementRepeated(words, search) {
   var c = 0;
   for (var i = 0; i < words.length; i++) {
